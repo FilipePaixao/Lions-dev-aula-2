@@ -1,3 +1,4 @@
+// fork
 const readline = require('readline');
 
 const numeroSecreto = Math.floor(Math.random() * 101); // Cria um número aleatório entre 0 e 100
