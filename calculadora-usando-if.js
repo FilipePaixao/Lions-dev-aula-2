@@ -24,7 +24,7 @@ rl.question("Operação (+, -, *, /): ", (operation) => {
         resultado = primeiroValor * segundoValor;
       } else if (operation === '/') {
         if (segundoValor === 0) {
-          resultado = 'Erro: divisão por zero';
+          resultado = 'Erro: divisão por 0';
         } else {
           resultado = primeiroValor / segundoValor;
         }
