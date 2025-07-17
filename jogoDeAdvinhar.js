@@ -54,6 +54,7 @@ rl.on('close', () => {
   console.log('Fim de jogo.');
   process.exit(0);
 });
+// testando branchs
 
 
 // Testando a diferença entre fork e clone.
