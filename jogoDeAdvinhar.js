@@ -51,7 +51,7 @@ rl.on('line', (input) => {
 });
 
 rl.on('close', () => {
-  console.log('Fim de jogo.');
+  console.log('Fim de jogoss.');
   process.exit(0);
 });
 
