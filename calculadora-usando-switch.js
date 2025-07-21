@@ -24,6 +24,8 @@ rl.question("Escolha a operação (+, -, *, /): ", function (operacao) {
 
       let resultado;
 
+
+      // Teste PR
       switch (operacao) {
         case '+':
           resultado = primeiroNumero + segundoNumero;
@@ -47,7 +49,7 @@ rl.question("Escolha a operação (+, -, *, /): ", function (operacao) {
 
       console.log(`\nResultado: ${resultado}`);
 
-      rl.close();
+        rl.close();
     });
   });
 });
